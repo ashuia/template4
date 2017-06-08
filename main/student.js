@@ -10,5 +10,4 @@ function Student(name,age,klass){
       str="My name is "+this.name+".I am "+this.age+" years old."+"I am a Student. I am at Class "+klass+".";
       return str;
   }
-
 }
