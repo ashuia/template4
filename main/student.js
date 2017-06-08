@@ -7,7 +7,7 @@ function Student(name,age,klass){
   this.klass=klass;
   this.introduce=function(){
       var str;
-      str="My name is "+this.name+".I am "+this.age+" years old."+"I am a Student. I am at Class "+klass;
+      str="My name is "+this.name+".I am "+this.age+" years old."+"I am a Student. I am at Class "+klass+".";
       return str;
   }
 
