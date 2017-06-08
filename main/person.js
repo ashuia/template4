@@ -5,7 +5,7 @@ function Person(name,age){
     this.age=age;
     this.introduce=function(){
       var str;
-      str="My name is "+this.name+".I am "+this.age+" years old.";
+      str="My name is "+this.name+" .I am "+this.age+" years old.";
       return str;
   }
 }
