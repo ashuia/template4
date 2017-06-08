@@ -5,7 +5,10 @@ function Student(name,age,klass){
   this.Person=Person;
   this.Person(name,age);
   this klass=klass;
-  My name is Tom. I am 21 years old. I am a Student. I am at Class 2.
-
+  function introduce{
+      var str;
+      str="My name is "+this.name+". I am "+this.age+" years old."+"I am a Student. I am at Class"+klass;
+      return str;
+  }
 
 }
